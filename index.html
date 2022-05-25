@@ -1,1 +1,48 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/portfolio-app-react/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/portfolio-app-react/logo192.png"/><link rel="manifest" href="/portfolio-app-react/manifest.json"/><title>React App</title><script defer="defer" src="/portfolio-app-react/static/js/main.ccb381ad.js"></script><link href="/portfolio-app-react/static/css/main.9c5c4f12.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!doctype html><html lang="en">
+    <head><meta charset="utf-8"/>
+   
+        <link rel="stylesheet" href="./style.css" />
+
+
+    </head><body>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div id="root">
+            <div class="fila1">
+                <video id="myVideo" width="500" height="500">
+                    <source src="./src/assets/video.mp4">                </video>
+                <div>
+
+                  <button 
+                      class="about"
+                      onclick="playVid()"
+                    
+                    >
+                    About me 
+                  </button>
+                  <button
+                      onclick="pauseVid()"
+                      style="height: 20px">
+                      Hard Skill
+                  
+                  </button>
+                  <button 
+                      class="add"
+                      onclick="skip()"
+                   
+                      style="height: 20px"
+                    >
+                    Soft Skills
+                  </button>
+                  <button 
+                      class="less"
+                      onclick="rerun()"
+                 
+                     >
+                     Rerun
+                  </button>
+                </div>
+        </div>
+        <script src="./video.js"></script>
+
+    </body>
+    </html>
