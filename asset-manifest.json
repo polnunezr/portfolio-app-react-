@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-app-react-/static/css/main.8dbb7009.css",
-    "main.js": "/portfolio-app-react-/static/js/main.a31e8010.js",
+    "main.css": "/portfolio-app-react-/static/css/main.35df6a17.css",
+    "main.js": "/portfolio-app-react-/static/js/main.54a60008.js",
     "static/media/realestate.jpg": "/portfolio-app-react-/static/media/realestate.44fd19f4c6872731149c.jpg",
     "static/media/teamwork.png": "/portfolio-app-react-/static/media/teamwork.5cb2ea2b27cd16bed833.png",
     "static/media/search-engines.png": "/portfolio-app-react-/static/media/search-engines.2876be48479450c7dfd1.png",
@@ -20,11 +20,11 @@
     "static/media/css.png": "/portfolio-app-react-/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/portfolio-app-react-/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio-app-react-/index.html",
-    "main.8dbb7009.css.map": "/portfolio-app-react-/static/css/main.8dbb7009.css.map",
-    "main.a31e8010.js.map": "/portfolio-app-react-/static/js/main.a31e8010.js.map"
+    "main.35df6a17.css.map": "/portfolio-app-react-/static/css/main.35df6a17.css.map",
+    "main.54a60008.js.map": "/portfolio-app-react-/static/js/main.54a60008.js.map"
   },
   "entrypoints": [
-    "static/css/main.8dbb7009.css",
-    "static/js/main.a31e8010.js"
+    "static/css/main.35df6a17.css",
+    "static/js/main.54a60008.js"
   ]
 }
