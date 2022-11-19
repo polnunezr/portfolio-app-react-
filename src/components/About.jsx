@@ -32,18 +32,24 @@ const About = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-4">
-          <a href="http://polnunezr.github.io/video/index.html">
-            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-black hover:border-black">
-              See more information
-              <span>
-                <AiOutlineInfoCircle className="ml-3 " />
-              </span>
-            </button>
-          </a>
-          <Link to="skills" onClick={handleClick} smooth={true} duration={500}>
+          <Link
+            to="Experience"
+            onClick={handleClick}
+            smooth={true}
+            duration={500}
+          >
             {" "}
             <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-black hover:border-black">
-              Continue
+              See experience
+              <span className="group-hover:rotate-90 duration-300">
+                <HiArrowNarrowRight className="ml-3 " />
+              </span>
+            </button>
+          </Link>
+          <Link to="work" onClick={handleClick} smooth={true} duration={500}>
+            {" "}
+            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-black hover:border-black">
+              See Work
               <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-3 " />
               </span>
