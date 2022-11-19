@@ -18,8 +18,8 @@ const Home = () => {
           Junior Web Developer
         </h2>
         <p className="text-[#f0f8ff] py-4 max-w-[700px]">
-          Desenvolupador d'Aplicacions Web especialitzat en dissenyar , crear i
-          realitzar manteniment a pagines i aplicacions web.
+          Web Developer specialised in designing, creating and maintenance of
+          web pages and web applications.
         </p>
         <div>
           <Link to="about" onClick={handleClick} smooth={true} duration={500}>
