@@ -17,7 +17,7 @@ const Experience = () => {
         <div className="max-w-[1000px] w-full grid grid-cols-1 gap-6">
           <div className="sm:text-left pb-8 pl-4">
             <p className="text-4xl font-bold inline border-b-4 border-[#e3b8c6]">
-              Fabular.ai | 10/2022 - Actually
+              Fabular.ai | 10/2022 - 01/2023
             </p>
           </div>
           <div className="sm:text-left pb-8 pl-4 h-full">
