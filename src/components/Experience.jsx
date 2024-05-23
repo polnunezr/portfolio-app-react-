@@ -14,6 +14,34 @@ const Experience = () => {
       className="w-full h-screen bg-[#806586] text-[#f0f8ff]"
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
+      <div className="max-w-[1000px] w-full grid grid-cols-1 gap-">
+          <div className="sm:text-left pb-8 pl-4">
+            <p className="text-4xl font-bold inline border-b-4 border-[#e3b8c6]">
+              Recambios Marinos | 05/2023 - Actually
+            </p>
+          </div>
+          <div className="sm:text-left pb-8 pl-4">
+            <ul>
+              <li>
+                {" "}
+                ● Proficiency in HTML, CSS, JavaScript.
+              </li>
+              <li>
+                ● Website and software application designing, building, or maintaining.
+              </li>
+              <li>● Conferring with teams to resolve conflicts, prioritize needs, develop content criteria, or choose solutions.</li>
+              <li>● Evaluating code to ensure it meets industry standards, is valid, is properly structured, and is compatible with browsers, devices, or operating systems.</li>
+              <li>
+                ● WordPress configuration: Installing and configuring WordPress on web servers, ensuring it is optimised for performance and security.
+              </li>
+              <li>
+                ● Content management: Adding, editing and formatting content, such as text, images and videos, through the WordPress administration panel. This includes creating posts, pages and organising information.
+              </li>
+              <li>● Troubleshooting: Identify and resolve technical issues that may arise on the website, such as code errors, browser compatibility issues and performance problems.</li>
+            </ul>
+          </div>
+        </div>
+
         <div className="max-w-[1000px] w-full grid grid-cols-1 gap-6">
           <div className="sm:text-left pb-8 pl-4">
             <p className="text-4xl font-bold inline border-b-4 border-[#e3b8c6]">
@@ -55,38 +83,7 @@ const Experience = () => {
             </ul>{" "}
           </div>
         </div>
-        <div className="max-w-[1000px] w-full grid grid-cols-1 gap-">
-          <div className="sm:text-left pb-8 pl-4">
-            <p className="text-4xl font-bold inline border-b-4 border-[#e3b8c6]">
-              Kantar | 01/2022 - 09/2022
-            </p>
-          </div>
-          <div className="sm:text-left pb-8 pl-4">
-            <ul>
-              <li>
-                {" "}
-                ● I work with different databases and back-end and front-end
-                contexts.
-              </li>
-              <li>
-                ● Performance analysis and optimization of databases distributed
-                in various geographical locations.
-              </li>
-              <li>● Incident resolution and problem management.</li>
-              <li>● Design and management of reports and documentation.</li>
-              <li>
-                ● I work together with the team of developers to ensure a
-                correct and efficient distribution of the database and its
-                storage.
-              </li>
-              <li>
-                ● Development of new applications and improvement of existing
-                applications.
-              </li>
-              <li>● Provision of information to databases.</li>
-            </ul>
-          </div>
-        </div>
+        
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4"></div>
 
         <div className="grid sm:grid-cols-1 md:grid-cols-1 gap-4">

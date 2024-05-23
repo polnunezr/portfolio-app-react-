@@ -1,8 +1,8 @@
 import React from "react";
 import memory from "../assets/memory-games-como-se-juega.jpg";
 import pokedex from "../assets/pokedex2.jpg";
-import anime from "../assets/search-engines.png";
-import resenas from "../assets/seseñas-y-opiniones.jpg";
+import anime from "../assets/react_project.png";
+import resenas from "../assets/reclube.png";
 
 const Work = () => {
   return (
@@ -28,12 +28,12 @@ const Work = () => {
                 HTML+CSS+JS
               </span>
               <div className="pt-8 text-center">
-                <a href="https://polnunezr.github.io/game/index.html">
+                <a href="https://recambiosmarinos.es">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/polnunezr/polnunezr.github.io/tree/main/game">
+                <a href="https://gitlab.com/recmar/site">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -75,12 +75,12 @@ const Work = () => {
                 React JS Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://api-anime2.herokuapp.com">
+                <a href="https://github.com/polnunezr/portfolio-app-react-">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/polnunezr/portfolio-app-react-">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -98,12 +98,12 @@ const Work = () => {
                 Vue Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://polnunezr.github.io/vue/vue.html">
+                <a href="https://reclube.es/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/polnunezr/polnunezr.github.io/tree/main/vue">
+                <a href="https://reclube.es/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>

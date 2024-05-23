@@ -7,7 +7,7 @@ import ReactImg from '../assets/react.png';
 import GitHub from '../assets/github.png';
 import Java from '../assets/java.png';
 import sql from '../assets/sql.png';
-import Vue from '../assets/vue.png';
+import Wordpress from '../assets/WordPress-logotype-alternative.png';
 import Patience from '../assets/patience.png';
 import team from '../assets/teamwork.png';
 import com from '../assets/communication.png';
@@ -49,8 +49,8 @@ const Skills = () => {
               </div>
             
               <div className='shadow-md shadow-[#040c16] bg-[#b98b94] hover:scale-110 duration-500'>
-                  <img className='w-20 mx-auto' src={Vue} alt="HTML icon" />
-                  <p className='text-[#f0f8ff] my-4'>VUE</p>
+                  <img className='w-20 mx-auto' src={Wordpress} alt="HTML icon" />
+                  <p className='text-[#f0f8ff] my-4'>Wordpress</p>
               </div>
               <div className='shadow-md shadow-[#040c16] bg-[#b98b94] hover:scale-110 duration-500'>
                   <img className='w-20 mx-auto' src={sql} alt="HTML icon" />
